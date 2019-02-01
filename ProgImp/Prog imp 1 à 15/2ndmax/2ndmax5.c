@@ -13,13 +13,13 @@ int max4(int a, int b, int c, int d)
 }
 int sec5(int a, int b, int c, int d, int e)
 {
-    if ((a > b) && (a > c) && (a > d) && (a > e))
+    if ((a >= b) && (a >= c) && (a >= d) && (a >= e))
         return max4(b, c, d, e);
-    if ((b > a) && (b > c) && (b > d) && (b > e))
+    if ((b >= a) && (b >= c) && (b >= d) && (b >= e))
         return max4(a, c , d, e);
-    if ((c > a) && (c > b) && (c > d) && (c > e))
+    if ((c >= a) && (c >= b) && (c >= d) && (c >= e))
         return max4(a, b ,d ,e);
-    if ((d > a) && (d > b) && (d > c) && (d > e))
+    if ((d >= a) && (d >= b) && (d >= c) && (d >= e))
         return max4(a, b, c , e);
     else
         return max4(a, b, c, d);

@@ -13,10 +13,10 @@ int prodsqr(int n)
     {
         while (a <= n)
         {
-            prod = prod + (a * a * a);
+            prod = prod * (a * a * a);
             a++;
         }
-        printf("Le produit des carrés de 0 à %d est %d\n",n, prod);
+        printf("Le produit des cubes de 0 à %d est %d\n",n, prod);
     }    
 }
 
@@ -24,7 +24,8 @@ int main()
 {
     int n;
 
-    n = 3;
+    printf("Calcul de la somme des puissances 3 de 0 à n. \n Choisir la valeur de n: ");
+    scanf("%d",&n);
 
     prodsqr(n);
 

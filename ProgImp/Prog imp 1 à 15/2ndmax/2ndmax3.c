@@ -10,9 +10,9 @@ int max2(int a, int b)
 
 int sec3(int a, int b, int c)
 {
-    if ((a > b) && (a > c))
+    if ((a >= b) && (a >= c))
         return max2(b, c);
-    if ((b > a) && (b > c))
+    if ((b >= a) && (b >= c))
         return max2(a, c);
     else
         return max2(a, b);

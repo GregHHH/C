@@ -13,7 +13,7 @@ int prod4(int n)
     {
         while (a <= n)
         {
-            prod = prod + (a * a * a * a);
+            prod = prod * (a * a * a * a);
             a++;
         }
         printf("Le produit des puissances 4 de 0 à %d est %d\n",n, prod);
@@ -22,9 +22,10 @@ int prod4(int n)
 
 int main()
 {
-    int n;
+  int n;
 
-    n = 3;
+    printf("Calcul de la somme des puissances 4 de 0 à n. \n Choisir la valeur de n: ");
+    scanf("%d",&n);
 
  prod4(n);
 

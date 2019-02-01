@@ -13,7 +13,7 @@ int sum4(int n)
     {
         while (a <= n)
         {
-            katr = katr + (a + a + a + a);
+            katr = katr + (a * a * a * a);
             a++;
         }
         printf("La somme de 0 à %d puissance 4 est %d\n",n, katr);

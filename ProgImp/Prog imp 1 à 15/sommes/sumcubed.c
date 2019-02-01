@@ -13,7 +13,7 @@ int sumcubed(int n)
     {
         while (a <= n)
         {
-            cub = cub + (a + a + a);
+            cub = cub + (a * a * a);
             a++;
         }
         printf("La somme des cubes de 0 à %d est %d\n",n, cub);

@@ -13,7 +13,7 @@ int sumsqr(int n)
     {
         while (a <= n)
         {
-            sum = sum + (a + a);
+            sum = sum + (a * a);
             a++;
         }
         printf("La somme des carrés de 0 à %d est %d\n",n, sum);

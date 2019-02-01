@@ -12,11 +12,11 @@ int max3(int a, int b, int c)
 
 int sec4(int a, int b, int c, int d)
 {
-if ((a > b) && (a > c) && (a > d))
+if ((a >= b) && (a >= c) && (a >= d))
         return max3(b, c, d);
-    if ((b > a) && (b > c) && (b > d))
+    if ((b >= a) && (b >= c) && (b >= d))
         return max3(a, c, d);
-    if ((c > a) && (c > b) && (c > d))
+    if ((c >= a) && (c >= b) && (c >= d))
         return max3(a, b, d);
     else
         return max3(a, b, c);
