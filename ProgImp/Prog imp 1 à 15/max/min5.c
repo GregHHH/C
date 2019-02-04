@@ -2,13 +2,13 @@
 
 int min5(int a, int b, int c, int d, int e)
 {
-    if ((a < b) && (a < c) && (a < d) && (a < e))
+    if ((a <= b) && (a <= c) && (a <= d) && (a <= e))
         return a;
-    if ((b < a) && (b < c) && (b < d) && (b < e))
+    if ((b <= a) && (b <= c) && (b <= d) && (b <= e))
         return b;
-    if ((c < a) && (c < b) && (c < d) && (c < e))
+    if ((c <= a) && (c <= b) && (c <= d) && (c <= e))
         return c;
-    if ((d < a) && (d < b) && (d < c) && (d < e))
+    if ((d <= a) && (d <= b) && (d <= c) && (d <= e))
         return d;
     else
         return e;
