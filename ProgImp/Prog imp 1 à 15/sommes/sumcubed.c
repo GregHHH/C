@@ -17,6 +17,7 @@ int sumcubed(int n)
             a++;
         }
         printf("La somme des cubes de 0 à %d est %d\n",n, cub);
+        return cub;
     }    
 }
 

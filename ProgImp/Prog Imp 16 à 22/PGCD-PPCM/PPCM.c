@@ -13,6 +13,7 @@ int PPCM(int a, int b)
 
     if (a % b == 0)
         printf("\nLe PPCM est : \x1b[32m%d\n\033[00m\n",a);
+        return a;
 
     else
         d = (a * b);
@@ -25,6 +26,7 @@ int PPCM(int a, int b)
     }
         e = d / a;
     printf("Le PPCM est : \x1b[32m%d\n\033[00m\n",e);
+    return e;
 
 int main()
 {

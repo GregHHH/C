@@ -13,7 +13,8 @@ int multip(int a, int b)
         printf("%d fois: a + a = %d\n",c, a);
         c++;
     }
-    printf("a x b =  \x1b[32m%d\n\033[00m\n", a);  
+    printf("a x b =  \x1b[32m%d\n\033[00m\n", a);
+    return a;  
 }
 int main()
 {

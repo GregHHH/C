@@ -17,6 +17,7 @@ int sum4(int n)
             a++;
         }
         printf("La somme de 0 à %d puissance 4 est %d\n",n, katr);
+        return katr;
     }    
 }
 

@@ -9,6 +9,7 @@ int expo(int x, int n)
     result = pow(x, n);
     
     printf("%d à la puissance %d est égal à: \x1b[32m%d\n\033[00m\n", x, n, result);
+    return result;
 }
 int main()
 {

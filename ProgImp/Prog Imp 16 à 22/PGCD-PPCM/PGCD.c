@@ -11,6 +11,7 @@ int PGCD(int a, int b)
         b = c;
     }
     printf("Le PGCD de a et b est \x1b[32m%d\n\033[00m\n", a);
+    retrun a;
 }
 
 int main()

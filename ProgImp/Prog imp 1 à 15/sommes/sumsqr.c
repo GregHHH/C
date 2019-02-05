@@ -17,6 +17,7 @@ int sumsqr(int n)
             a++;
         }
         printf("La somme des carrés de 0 à %d est %d\n",n, sum);
+        return sum;
     }    
 }
 

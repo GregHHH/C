@@ -17,6 +17,7 @@ int prodsqr(int n)
             a++;
         }
         printf("Le produit des carrés de 0 à %d est %d\n",n, prod);
+        retrun prod;
     }    
 }
 

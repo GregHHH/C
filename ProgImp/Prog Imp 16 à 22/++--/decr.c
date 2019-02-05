@@ -20,6 +20,7 @@ int add(int a, int b)
         }
     }
     printf("a - b est égal à  \x1b[32m%d\n\033[00m\n", a);   
+    return a;
 }
 int main()
 {
