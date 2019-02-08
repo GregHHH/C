@@ -3,6 +3,7 @@
 int	fibo(int n)
 {
 	if (n < 0)
+<<<<<<< HEAD
     printf("Le rang ne peut pas être négatif! \n");
 		return (-1);
 	if (n == 0)
@@ -17,6 +18,16 @@ int	fibo(int n)
     }
 	else
 		return (fibo(n - 2) + fibo(n - 1));
+=======
+		return (-1);
+	else if (n == 0)
+		return (0);
+	else if (n == 1)
+		return (1);
+	else
+		return (fibo(n - 2) + fibo(n - 1));
+
+>>>>>>> 0883743f7b025fb062e4dd8a5a92c4ad353a4a53
 }
 
 int main()
@@ -27,3 +38,4 @@ int main()
     scanf("%d",&n);
     fibo(n);
 }
+
