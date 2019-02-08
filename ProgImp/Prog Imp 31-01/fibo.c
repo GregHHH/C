@@ -1,12 +1,22 @@
 #include <stdio.h>
 
-int fibo(int n)
+int	fibo(int n)
 {
-
-    if (n < 2)
-        printf("Le chiffre au rang 0 de la suite de fibonacci est égal à \x1b[32m%d\n\033[00m\n", n);
-    if (n >= 2)
-        return (fibo(n - 1) + fibo (n - 2));
+	if (n < 0)
+    printf("Le rang ne peut pas être négatif! \n");
+		return (-1);
+	if (n == 0)
+    {
+        printf("La valeur au rang 0 est 0");
+		return (0);
+    }
+	if (n == 1)
+    {
+        printf("La valeur au rang 1 est 1");
+		return (1);
+    }
+	else
+		return (fibo(n - 2) + fibo(n - 1));
 }
 
 int main()
