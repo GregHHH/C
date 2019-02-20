@@ -38,7 +38,7 @@ vec_t remplir(int nb)
     
     for (i = 2;i < nb; i = i+1)
     {
-        crt = (pred*ante)%23;
+        crt = (pred + ante)%23;
         v.vec[i] = crt;
         ante = pred;
         pred = crt;
