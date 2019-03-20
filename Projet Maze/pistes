@@ -1,0 +1,31 @@
+plusieurs tableaux en 2d : CUBES! (tableau [x] [x])
+
+2* nbr étages:
+
+- représentation étages: début, UP, DOWN, fin, murs.
+
+-suivis de notre progression: 0,1 et x par exemple:
+0 = case libre
+1= case deja visité
+x= murs
+exemple de tableau avec chaines de caractere au lieu de plusieurs cases indépendantes.
+
+                {
+                   "+-+---+---+",
+                    "| |     |#|",
+                    "| | --+ | |",
+                    "| |   | | |",
+                    "| +-- | | |",
+                    "|     |   |",
+                    "+-----+---+" 
+                };
+
+
+- utilisation de argv:
+
+argv[0] = schéma du 1er étage
+argv[1] = schéma du 2eme étage 
+etc...
+
+backtracking:
+
